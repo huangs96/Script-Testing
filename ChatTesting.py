@@ -1,8 +1,8 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import keys
+from selenium.webdriver.common.keys import Keys
 
 # Starts a webdriver isntance and opens chatGPT
-driver = webdrive.Chrome()
+driver = webdriver.Chrome(executable_path='/Users/stephenhuang/Desktop/Script Testing/chromedriver_mac64/chromedriver')
 driver.get('https://google.com/')
 
 # Finds input field and writes question and send
